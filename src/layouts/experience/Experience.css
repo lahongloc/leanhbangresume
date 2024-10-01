@@ -1,0 +1,13 @@
+.experience-container {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: #0a101e; */
+    /* Nền tối */
+    padding: 40px 0;
+}
+
+.company-name {
+    text-align: center;
+    color: #f0f0f0;
+    margin-top: 10px;
+}

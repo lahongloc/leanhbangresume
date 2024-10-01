@@ -1,0 +1,25 @@
+.experience-card {
+    background-color: #333;
+    /* Nền tối */
+    color: #fff;
+    /* Chữ sáng */
+    padding: 16px;
+}
+
+.experience-card .ant-card-body {
+    padding: 0;
+}
+
+.ant-card-title {
+    color: #fff;
+}
+
+.ant-divider {
+    margin: 0;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.ant-list-item {
+    padding: 0;
+}

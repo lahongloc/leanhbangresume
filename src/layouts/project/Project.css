@@ -1,0 +1,61 @@
+/* Project.css */
+.project-container-laptop {
+    background-color: black !important;
+    color: #fff;
+    height: max-content;
+    padding: 3rem 0 7rem 5rem !important;
+    /* Make text white */
+}
+
+.ant-tabs-tab-btn {
+    color: #fff !important;
+    /* Ensure tab labels are white */
+}
+
+.ant-tabs-content-holder {
+    color: #fff;
+    /* Ensure tab content is white */
+}
+
+.ant-radio-button-wrapper {
+    color: #fff !important;
+    /* Make radio button text white */
+}
+
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.video-item {
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.product-title {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.logo-image {
+    width: 40px;
+    /* Kích thước logo nhỏ */
+    height: 40px;
+    /* Kích thước logo nhỏ */
+    border-radius: 50%;
+    /* Tạo hình tròn cho logo */
+    margin-right: 10px;
+    /* Tạo khoảng cách giữa logo và tên sản phẩm */
+    object-fit: cover;
+}
+
+.product-description {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #d1d1d1;
+    /* Màu xám nhạt để nổi bật trên nền tối */
+}

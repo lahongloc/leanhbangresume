@@ -1,0 +1,99 @@
+/* SocialHeader.css */
+/* SocialHeader.css */
+.nav-link {
+    color: #fff !important;
+    /* Set the text color to white */
+}
+
+.nav-link:hover {
+    color: #ccc !important;
+    /* Optional: Add hover effect with a lighter color */
+}
+/* Header Styling */
+.social-header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background: rgba(255, 255, 255, 0.3);
+    /* Glass effect */
+    backdrop-filter: blur(10px);
+    /* Blur effect */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Logo Title Styling */
+.logo-title {
+    color: black;
+    margin: 0;
+}
+
+/* Navigation Menu Styling */
+.nav-menu {
+    background: transparent;
+    border-bottom: none;
+    flex: 1;
+    justify-content: center;
+}
+
+.nav-link {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #1890ff;
+    /* Hover effect */
+}
+
+/* Social Media Icons Styling */
+.social-menu {
+    background: transparent;
+    border-bottom: none;
+}
+
+.social-icon {
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #1890ff;
+    /* Hover effect */
+}
+
+
+
+.menu-button {
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .social-header {
+        padding: 0 20px;
+    }
+
+   
+    .nav-link {
+        padding: 0 10px;
+    }
+
+        .menu-button {
+            display: block;
+        }
+
+        .nav-menu {
+            display: none;
+        }
+       
+    
+}

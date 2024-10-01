@@ -1,0 +1,20 @@
+/* CharityDisplay.css */
+@media (max-width: 768px) {
+    .ant-tabs-tab {
+        font-size: 14px;
+    }
+
+    .ant-card-meta-title h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .ant-card {
+        margin: 0 10px;
+    }
+
+    .ant-carousel img {
+        height: 150px;
+        /* Adjust image height for smaller screens */
+    }
+}

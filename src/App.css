@@ -1,0 +1,24 @@
+/* App.css */
+
+/* Mặc định ẩn cả hai class */
+.mobile {
+    display: none;
+}
+
+.laptop {
+    display: none;
+}
+
+/* Hiển thị thành phần có class 'mobile' trên thiết bị nhỏ (dưới 768px) */
+@media screen and (max-width: 768px) {
+    .mobile {
+        display: block;
+    }
+}
+
+/* Hiển thị thành phần có class 'laptop' trên thiết bị lớn hơn (từ 768px trở lên) */
+@media screen and (min-width: 769px) {
+    .laptop {
+        display: block;
+    }
+}

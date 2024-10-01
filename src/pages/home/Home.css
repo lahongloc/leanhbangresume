@@ -1,0 +1,28 @@
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .laptop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    /* .section-3 {
+        height: 220vh !important;
+    } */
+    .section-2 {
+        height: 100vh !important;
+    }
+}
+
+/* Tablet and Larger Screens */
+@media only screen and (min-width: 769px) {
+    .laptop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+}

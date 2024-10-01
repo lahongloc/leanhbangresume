@@ -1,0 +1,30 @@
+.carousel-container img {
+    width: 100%;
+    /* border: 2px solid #fff; */
+}
+
+.carousel-container {
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    margin-top: -9rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .carousel-container {
+        width: 90%;
+        /* Tăng kích thước container trên thiết bị nhỏ */
+        margin-top: 0;
+        /* Điều chỉnh lại margin-top cho phù hợp */
+    }
+
+    .carousel-container img {
+        height: auto;
+        /* Đảm bảo ảnh giữ tỷ lệ và không bị cắt */
+        max-height: 50vh;
+        /* Tạo ảnh lớn hơn mà không quá cao */
+    }
+}
