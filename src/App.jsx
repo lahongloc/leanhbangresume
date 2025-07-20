@@ -8,7 +8,8 @@ import MyProject from "./pages/project/MyProject";
 import AppFooter from "./layouts/footer/AppFooter";
 import CharityDisplay from "./layouts/charity/CharityDisplay";
 import CharityComponent from "./mobile-layouts/Charity/CharityComponent";
-import Charity from "./pages/act/charity";
+import Charity from "./pages/act/Charity";
+import AdsCreativeWork from "./pages/AdsCreativeWork/AdsCreativeWork";
 
 const App = () => {
 	return (
@@ -24,6 +25,7 @@ const App = () => {
 						path={paths.charitiesAndComunity}
 						element={<Charity />}
 					/>
+					<Route path={paths.adsCreativeWork} element={<AdsCreativeWork />} />
 				</Routes>
 				<AppFooter />
 			</BrowserRouter>

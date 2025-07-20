@@ -45,7 +45,7 @@ const WorkExperienceCard = ({ experience }) => {
 			category: "Period",
 			details: `${dayjs(experience.period.start).format("MMMM YYYY")} - ${
 				experience.period.end === "Present"
-					? "Hiện tại"
+					? "Now"
 					: dayjs(experience.period.end).format("MMMM YYYY")
 			}`,
 		},

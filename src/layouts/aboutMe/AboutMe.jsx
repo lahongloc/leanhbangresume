@@ -47,6 +47,11 @@ const AboutMe = () => {
 		},
 		{
 			key: "4",
+			label: "Slogan",
+			value: personalInformation.slogan,
+		},
+		{
+			key: "5",
 			label: "Introduction",
 			value: personalInformation.Introduction,
 		},
@@ -104,9 +109,11 @@ const AboutMe = () => {
 							<div className="about-me-item">
 								<HighlightOutlined className="about-me-icon" />
 								<Title level={4} className="about-me-label">
-									Introduction:
+									Introduction: 
 								</Title>
+								{/* <h3></h3> */}
 								<Paragraph className="about-me-text">
+									<span style={{display: 'block', fontSize: '24px', fontWeight: 700, marginBottom: 12}}>{personalInformation.slogan}</span>
 									{personalInformation.Introduction}
 								</Paragraph>
 							</div>
