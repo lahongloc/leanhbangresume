@@ -13,7 +13,7 @@ const FirstPage = () => {
 				// width: "100%",
 			}}
 		>
-			<div>
+			{/* <div>
 				<h1
 					style={{
 						fontSize: "4rem",
@@ -31,7 +31,7 @@ const FirstPage = () => {
 						IS LE ANH BANG
 					</span>
 				</h1>
-			</div>
+			</div> */}
 			{/* <div style={{ width: "30%" }}>
 				<img width={500} src={user} />
 			</div> */}

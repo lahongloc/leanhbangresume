@@ -1,5 +1,5 @@
 export const personalInformation = {
-	fullname: "Lê Anh Bằng",
+	fullname: "Lê Anh Bằng (LAB05)",
 	dob: "5th October, 2003",
 	major: "Professional Communication (Bachelor), Entertainment",
 	Introduction: `Hi, my name is Bang, but you can call me LAB (which is the combination of the first letters of my name), and that's also my stage name!

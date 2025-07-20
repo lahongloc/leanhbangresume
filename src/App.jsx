@@ -8,7 +8,7 @@ import MyProject from "./pages/project/MyProject";
 import AppFooter from "./layouts/footer/AppFooter";
 import CharityDisplay from "./layouts/charity/CharityDisplay";
 import CharityComponent from "./mobile-layouts/Charity/CharityComponent";
-import Charity from "./pages/act/charity";
+import Charity from "./pages/act/Charity";
 
 const App = () => {
 	return (
