@@ -9,7 +9,10 @@ import AppFooter from "./layouts/footer/AppFooter";
 import CharityDisplay from "./layouts/charity/CharityDisplay";
 import CharityComponent from "./mobile-layouts/Charity/CharityComponent";
 import Charity from "./pages/act/Charity";
+<<<<<<< HEAD
 import AdsCreativeWork from "./pages/AdsCreativeWork/AdsCreativeWork";
+=======
+>>>>>>> main
 
 const App = () => {
 	return (

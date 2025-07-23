@@ -9,11 +9,11 @@ import {
 const { Title, Text, Paragraph } = Typography;
 
 const personalInformation = {
-  fullname: "Lê Anh Bằng",
-  dob: "5th October, 2003",
-  major: "Professional Communication (Bachelor), Entertainment",
-  slogan: "“Sketches whisper, blooming into full color”",
-  Introduction: `As a child, I found joy in many things - life felt like a flower blooming in full color. But as I grew older, I began to realize a quiet truth: a flower that bears too vivid a color, too personal a shade, is often left unaccepted. Still, I chose not to mute those colors. Instead, I celebrate the beauty each individual carries, honoring their essence and refining it into something rare - something the world no longer rejects, but deeply desires.`,
+	fullname: "Lê Anh Bằng (LAB05)",
+	dob: "5th October, 2003",
+	major: "Professional Communication Ư(Bachelor), Entertainment",
+	Introduction: `Hi, my name is Bang, but you can call me LAB (which is the combination of the first letters of my name), and that's also my stage name!
+I graduated from Western Sydney University, Australia, majoring in Communication. I also started exploring, learning, and working in the entertainment industry as a production assistant, management assistant, and an independent artist in Vietnam from the age of 20! Up until now, I have achieved certain milestones in my personal career and contributed to the community.`,
 };
 
 const MobileAboutMe = () => {

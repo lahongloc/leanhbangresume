@@ -1,5 +1,5 @@
 export const personalInformation = {
-	fullname: "Lê Anh Bằng",
+	fullname: "Lê Anh Bằng (LAB05)",
 	dob: "5th October, 2003",
 	major: "Professional Communication (Bachelor), Entertainment",
 	slogan: "“Sketches whisper, blooming into full color”",

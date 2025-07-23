@@ -31,7 +31,10 @@ const FirstPage = () => {
 						IS LE ANH BANG
 					</span>
 				</h1>
+<<<<<<< HEAD
 				
+=======
+>>>>>>> main
 			</div> */}
 			{/* <div style={{ width: "30%" }}>
 				<img width={500} src={user} />
