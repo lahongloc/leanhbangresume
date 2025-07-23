@@ -29,6 +29,8 @@ const SocialHeader = () => {
 			setSelectedKey("projects");
 		} else if (currentPath === paths.charitiesAndComunity) {
 			setSelectedKey("charity");
+		} else if (currentPath === paths.adsCreativeWork) {
+			setSelectedKey("ads")
 		}
 	}, [location.pathname]);
 
@@ -87,6 +89,17 @@ const SocialHeader = () => {
 						className="nav-link"
 					>
 						Charity & Community
+					</a>
+				</Menu.Item>
+				<Menu.Item key="ads">
+					<a
+						onClick={(e) => {
+							e.preventDefault();
+							navigate(paths.adsCreativeWork);
+						}}
+						className="nav-link"
+					>
+						Advertising Creative Work
 					</a>
 				</Menu.Item>
 			</Menu>
@@ -161,6 +174,16 @@ const SocialHeader = () => {
 							Charity & Community
 						</a>
 					</Menu.Item>
+					<Menu.Item key="ads">
+						<a
+							onClick={(e) => {
+								e.preventDefault();
+								navigate(paths.adsCreativeWork);
+							}}
+						>
+							Advertising Creative Work
+						</a>
+				</Menu.Item>
 				</Menu>
 			</Drawer>
 		</Header>

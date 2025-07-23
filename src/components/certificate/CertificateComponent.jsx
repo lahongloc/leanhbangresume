@@ -31,7 +31,8 @@ const CertificateComponent = () => {
 					</Title>
 					<img
 						alt="Certificate"
-						src="https://res.cloudinary.com/dbfh15hki/image/upload/v1727664202/Google_Analytics_Certi_1_iwsx7q.jpg"
+						// src="https://res.cloudinary.com/dbfh15hki/image/upload/v1727664202/Google_Analytics_Certi_1_iwsx7q.jpg"
+						src="https://res.cloudinary.com/dbfh15hki/image/upload/v1753002801/1010_Certi_png_zrueur.png"
 						style={{
 							display: "block",
 							margin: "0 auto",

@@ -1,7 +1,7 @@
 import React from "react";
-import { Tabs } from "antd";
+import { Image, Tabs } from "antd";
 import "./Project.css";
-import { projects } from "../../database/data";
+import { eventProductionImages, projects } from "../../database/data";
 import Cube from "../../components/cube/Cube";
 
 const Project = () => {
@@ -38,6 +38,34 @@ const Project = () => {
 						)}
 					</div>
 				))}
+				{project.project === 'Event Production and Sound-Technician' && <>
+					{eventProductionImages.map((eventProduct, idx) => {
+						return (<>
+								<div key={idx} className="video-item">
+								<Image
+									width='100%'
+									height='315px'
+									style={{ objectFit: 'contain', border: '1px solid white' }}
+									src={eventProduct.poster}
+									alt={eventProduct.name}
+								/>
+
+							<div className="product-title">
+								{eventProduct.logo && (
+									<img
+										src={eventProduct.logo}
+										alt={eventProduct.name}
+										className="logo-image"
+									/>
+								)}
+								
+								<h3>{`${eventProduct.logoText} - ${eventProduct.name}`}</h3>
+							</div>
+							</div>
+						</>)
+					})}
+				
+				</>}
 			</div>
 		),
 	}));
